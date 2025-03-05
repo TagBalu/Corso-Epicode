@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+body{
+margin: 0;
+padding: 0;
+font-family: "Montserrat", serif;
+}
+.main-section{
+padding: 20px;
+}
+.image-container{
+background-image: url(cammino.png);
+background-size: contain;
+background-repeat: no-repeat;
+height: 500px;
+}
+h1 { 
+font-family: "Prata", serif;
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 0;
+}
+h3 {
+font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+font-weight: 600;
+font-style: italic;
+text-decoration: none;
+color: hwb(63 0% 59%);
+}
+a :hover {
+color: #5a5202e7;
+}
+h6 {
+padding: 22px; 
+margin-bottom: 0px;
+margin-top: 56px;
+color: #ffffff;
+border-radius: 6px;
+background-image: linear-gradient(to right, hwb(60 0% 53% / 0.863), #ffffff);
+}
+#special-list {
+list-style-type: none;
+}
+li {
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 22px;
+border-bottom: 1px #dfdfdf;
+}
+.footer {
+    padding: 16px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
